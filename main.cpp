@@ -15,22 +15,22 @@ void main()
 	case 1:
 		cout << "\n[Summation]\tInput two numbers:\n" << endl;
 		cin >> a; cin >> b;	c = Sum(a, b);
-		cout << "\n\t" << a << " + " << b << " = " << c << endl;
+		cout << "\n\t" << a << " + " << b << " = " << c << "\n______________________________\n" << endl;
 		break;
 	case 2:
 		cout << "\n[Subtraction]\tInput two numbers:\n" << endl;
 		cin >> a; cin >> b;	c = Sub(a, b);
-		cout << "\n\t" << a << " - " << b << " = " << c << endl;
+		cout << "\n\t" << a << " - " << b << " = " << c << "\n______________________________\n" << endl;
 		break;
 	case 3:
 		cout << "\n[Multiply]\tInput two numbers:\n" << endl;
 		cin >> a; cin >> b;	c = Mul(a, b);
-		cout << "\n\t" << a << " * " << b << " = " << c << endl;
+		cout << "\n\t" << a << " * " << b << " = " << c << "\n______________________________\n" << endl;
 		break;
 	case 4:
 		cout << "\n[Diviation]\tInput two numbers:\n" << endl;
 		cin >> a; cin >> b;	c = Div(a, b);
-		cout << "\n\t" << a << " / " << b << " = " << c << endl;
+		cout << "\n\t" << a << " / " << b << " = " << c << "\n______________________________\n" << endl;
 		break;
 	}
 	system("pause");
